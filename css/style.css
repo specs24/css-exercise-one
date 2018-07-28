@@ -1,3 +1,4 @@
+/*reset css https://meyerweb.com/eric/tools/css/reset/reset.css*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -37,6 +38,7 @@ section {
   width: 60%;
 }
 
+/*text is "this example should the span entire page*/
 h1 {
   font-family: sans-serif;
   font-size: 2em;
@@ -47,6 +49,7 @@ h1 {
   text-align: center;
 }
 
+/*text is "this is text for a div element*/
 h3 {
   font-size: 1.3em;
 }
