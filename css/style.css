@@ -11,22 +11,23 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video 
+{
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: inherit;
 	vertical-align: baseline;
 }
-
 
 body {
   font-size: 14px;
 }
 
+/*******static navigational bar*********/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
@@ -38,13 +39,12 @@ section {
   width: 60%;
 }
 
-/*text is "this example should the span entire page*/
 h1 {
   font-family: sans-serif;
   font-size: 2em;
 }
 
-.example, h3 {
+.example, h3,.element_background_blue,.element_background_red,.element_background_red {
   padding-top: 30px;
   text-align: center;
 }
@@ -54,22 +54,29 @@ h3 {
   font-size: 1.3em;
 }
 
-.element {
+/*formatting and colour for first 3 div elements*/
+.element h3 {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
+  width: 100%;
+}
+
+
+.element_background_red, .element_background_blue, .element_background_yellow {
+  height: 100px;
+  margin: 10px 0;
   width: 100%;
   }
 
-.element_4 {
+.element_background_red {
   background-color: red;
-  }
+}
 
-.element_5 {
+.element_background_blue {
   background-color: blue;
   }
 
-.element_6 {
+.element_background_yellow {
   background-color: yellow;
   }
-
